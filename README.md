@@ -1,3 +1,9 @@
 # Lab Wiki
 
-This repository is for documenting useful information shared by all lab members. Plsease go to Wiki page on the top bar.
+This repository documents useful information shared by all members of the MACS lab. 
+
+[Home](https://github.com/macs-lab/lab_doc/wiki)
+[Table of content](https://github.com/macs-lab/lab_doc/wiki/Table-of-Content)
+[How to contribute](https://github.com/macs-lab/lab_doc/wiki/How-to-contribute-the-wiki)
+
+More in the [Wiki page](https://github.com/macs-lab/lab_doc/wiki) on the top bar.
