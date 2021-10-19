@@ -1,0 +1,45 @@
+#+title: All About ROS For Manufacturing
+#+author: Xu Chen
+#+date:  2021-10-12
+
+* ROS 1
+
+- started back in November 2007
+
+- first release in 2010
+
+- began life as the development environment for the Willow Garage PR2 robot
+
+* ROS 2
+** New use cases
+
+- standard approaches to teams of multiple robots
+- downsized for small embedded platforms
+- *Real-time systems*: "we want to support real-time control directly in ROS, including inter-process and inter-machine communication (assuming appropriate operating system and/or hardware support)."
+- *Non-ideal networks*: we want ROS to behave as well as is possible when network connectivity degrades due to loss and/or delay, from poor-quality WiFi to ground-to-space communication links.
+- *Production environments*: while it is vital that ROS continue to be the platform of choice in the research lab, we want to ensure that ROS-based lab prototypes can evolve into ROS-based products suitable for use in real-world applications.
+- Prescribed patterns for building and structuring systems
+** New technologies
+Now possible to build a middleware system using off-the-shelf open source libraries, e.g.:
+- Zeroconf;
+- Protocol Buffers;
+- ZeroMQ (and the other MQs);
+- Redis;
+- WebSockets; and
+- DDS (Data Distribution Service)
+** API changes
+** Platforms and dependencies
+
+| features     | ROS 1    | ROS 2                                                                                              |
+|--------------+----------+----------------------------------------------------------------------------------------------------|
+| platforms    | Ubuntu   | Ubuntu Linux, macOS[fn:: Mojave as of 2021-10-12], RHEL, Windows[fn:: Windows 10 as of 2021-10-12] |
+| C++ standard | C++03    | C++11 and above                                                                                    |
+| Python       | Python 2 | Python 3.5 and above                                                                               |
+
+** Suggested version
+ROS2 Galactic is the stable version that is recommended by e.g., Universal Robots
+** ROS 2 and Universal Robots
+- UR has an official [[https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver][ROS 2 driver package]]
+
+* References
+- ROS 2 official documentation
